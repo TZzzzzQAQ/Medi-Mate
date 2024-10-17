@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.friedchicken.mapper.OrderMapper">
+    <insert id="insertOrderItem">
+        insert into order_item (item_id, order_id, product_id, quantity, price)
+        values (#{itemId}, #{orderId}, #{productId}, #{quantity}, #{price});
+    </insert>
+    <insert id="insertOrder">
+        insert into `order` (order_id, user_id, pharmacy_id, created_at, status, amount, updated_at)
+        values (#{orderId}, #{userId}, #{pharmacyId}, #{createdAt}, #{status}, #{amount}, #{updatedAt});
+    </insert>
+    <update id="updateOrder">
+        update `order`
+        <set>
+            <if test="pharmacyId != null">
+                pharmacy_id = #{pharmacyId},
+            </if>
+            <if test="amount != null">
+                amount = #{amount},
+            </if>
+            <if test="status != null">
+                status = #{status},
+            </if>
+            <if test="updatedAt != null">
+                updated_at = #{updatedAt},
+            </if>
+            <if test="cancelReason != null">
+                cancel_reason = #{cancelReason},
+            </if>
+        </set>
+        where order_id= #{orderId};
+    </update>
+    <delete id="deleteOrder">
+        delete o,oi
+        from `order` o
+                 join order_item oi
+                      on o.order_id = oi.order_id
+        where o.order_id = #{orderId}
+          and o.user_id = #{userId};
+    </delete>
+    <select id="getOrderByOrderId" resultType="com.friedchicken.pojo.entity.Order.Order">
+        select *
+        from `order`
+        where order_id = #{orderId};
+    </select>
+    <select id="getOrderItemDetailByOrderId" resultType="com.friedchicken.pojo.vo.Order.OrderItemDetailVO">
+        select o.order_id, m.product_id, o.quantity, o.price, m.product_name, m.manufacturer_name, m.image_src
+        from order_item o
+                 natural join medicine m
+        where order_id = #{orderId};
+    </select>
+    <select id="getOrderByUserId" resultType="com.friedchicken.pojo.vo.Order.DetailOrderVO">
+        select order_id,
+               amount,
+               username,
+               nickname,
+               pharmacy_id,
+               status,
+               created_at,
+               updated_at
+        from `order`
+                 natural join user
+        where user_id = #{userId};
+    </select>
+    <select id="getOrderByPharmacyId" resultType="com.friedchicken.pojo.vo.Order.DetailOrderVO">
+        select order_id, amount, username, pharmacy_id, status, o.created_at, o.updated_at
+        from `order` o
+                 join user u on o.user_id = u.user_id
+        where pharmacy_id = #{pharmacyId};
+    </select>
+    <select id="getOrderDetailByOrderId" resultType="com.friedchicken.pojo.entity.Order.OrderEmail">
+        SELECT o.order_id,
+               o.user_id,
+               p.pharmacy_address,
+               o.amount,
+               o.status,
+               o.created_at,
+               o.updated_at,
+               u.username,
+               u.email,
+               u.nickname
+        FROM `order` o
+                 JOIN
+             user u ON u.user_id = o.user_id
+                 JOIN
+             pharmacy p ON p.pharmacy_id = o.pharmacy_id
+        WHERE o.order_id = #{orderId};
+    </select>
+</mapper>

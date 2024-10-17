@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>612248007201-6ikkog57n149nt1alb50rvqrtkhl00fh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.612248007201-6ikkog57n149nt1alb50rvqrtkhl00fh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB0YFl-ZoWIH9S-1PdhY0q_-Q1qb3j9CsM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>612248007201</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.FriedChicken.Mobile1</string>
+	<key>PROJECT_ID</key>
+	<string>project778-f398d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>project778-f398d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:612248007201:ios:47b6c8fda2c4dd58f92960</string>
+</dict>
+</plist>

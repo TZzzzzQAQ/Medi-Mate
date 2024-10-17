@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1369c79b-277f-4079-b539-b663b0f49038" name="Changes" comment="MediMate Release">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/AppIcon.appiconset/1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/Button.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/background.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/bar.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/book-solid.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/book-solid.imageset/book-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/camera-retro-solid.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/camera-retro-solid.imageset/camera-retro-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/google-brands-solid.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/google-brands-solid.imageset/google-brands-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/robot.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/robot.imageset/smart_toy_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/select.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/store.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/store.imageset/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Assets.xcassets/unSelect.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Authentication/AccountView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Authentication/LoginView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Authentication/LoginViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Authentication/RegisterView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Authentication/RegisterViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Authentication/UserAPI.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Comparision/CompareCareMode.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Comparision/ComparisonView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Comparision/ComparisonViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Comparision/File.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/CoreApp/AuthManager.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/CoreApp/Constant.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/CoreApp/ContentView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/CoreApp/Launch Screen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/CoreApp/MobileApp.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/CoreApp/Models.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Google/Application.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Google/AuthenticationView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Google/GoogleService-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Google/GoogleSignInFireBase.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Home/HomeVM.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Home/HomeView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Home/ImagePicker.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Home/Service.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Map/LocationDetailView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Map/MapView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Map/StoreLocationViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Map/StoreLocationsView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Map/location.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Preview Content/Preview Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Result/CareResultView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Result/LocationView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Result/ProductDetailView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Result/ProductDetailsVM.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Result/ResultsView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Result/SearchResultsContainer.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Result/StoreSelectVM.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Result/StoreSelectView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Shop/APIService.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Shop/CardView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Shop/CartManager.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Shop/CartView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Shop/LocationManager.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Shop/LocationSelectionView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Shop/Notification.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Shop/StoreSelectionView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/Shop/StoreService.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/TabBar/KeyFrameWiggleButton.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/TabBar/Utlis.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/UIComponent/CustomLoadingView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/UIComponent/CustomTabBar.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/UIComponent/FontSizeMultiplierKey.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/UIComponent/ScalableFont.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/UserInfo/ChangePassWordView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/UserInfo/EditProfileView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/Mobile/UserInfo/UserInfoAPI.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/src/api/service.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/src/axios/requestProducts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/src/pages/HomePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/src/pages/ProductDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/src/pages/Result.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/src/router/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoblieWebApp/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/BackendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/annotation/AutoFillDateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/aspect/DateTimeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/config/IdGeneratorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/config/JwtConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/config/MqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/constant/AutoFillConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/constant/JwtClaimsConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/constant/MessageConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/constant/OrderStatusConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/AI/AIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/AI/exception/ImageFailedUploadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/AI/exception/UnrecognizedMedicineException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/Order/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/SSE/SseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/inventory/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/pharmacy/PharmacyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/product/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/user/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/user/exception/AccountNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/user/exception/LoginFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/user/exception/PasswordErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/controller/user/exception/RegisterFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/enumeration/OperationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/exception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/exception/InvalidInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/exception/LoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/listener/Exception/NoStaffException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/listener/OrderStatusListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/mapper/AiInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/mapper/InventoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/mapper/PharmacyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/AI/AICompareDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/AI/AIimageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/AI/AItextDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/Inventory/DetailInventoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/Medicine/MedicineDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/Medicine/MedicineLocationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/Medicine/MedicineModifyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/Medicine/MedicinePageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/Order/DeleteOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/Order/DetailOrderPageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/Order/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/Order/OrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/Order/UpdateOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/User/UserChangeNickname.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/User/UserChangePasswordDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/User/UserGoogleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/User/UserInfoChangeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/User/UserInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/User/UserLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/dto/User/UserRegisterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/entity/Medicine/Medicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/entity/Medicine/MedicineInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/entity/Order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/entity/Order/OrderEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/entity/Order/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/entity/Pharmacy/Pharmacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/entity/User/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/AI/AIcomparisonVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/AI/AItextVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/AI/ComparisonRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/Inventory/DetailInventoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/Medicine/ManufactureNameListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/Medicine/MedicineComparisonVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/Medicine/MedicineDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/Medicine/MedicineInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/Medicine/MedicineListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/Medicine/MedicineLocationVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/Order/DetailOrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/Order/OrderItemDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/Order/OrderMessageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/Pharmacy/PharmacyInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/User/UserGoogleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/User/UserInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/pojo/vo/User/UserLoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/properties/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/properties/OpenAIProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/result/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/AiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/PharmacyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/SseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/exception/NoCancelReasonException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/exception/NoProductException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/exception/NoQuantityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/impl/AiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/impl/InventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/impl/PharmacyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/impl/SseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/task/HeartBeatTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/utils/BCryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/utils/RandomStringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/friedchicken/utils/UniqueIdUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/AiInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/InventoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/PharmacyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/FriedChicken/BackendApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler/OCR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler/finalclean.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler/image_download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/icons/camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/icons/clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/Albany.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/Albert.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/Arasaka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/CBD.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/Manakau.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/NewMarket.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/sound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/sound1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/api/orderApi.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/api/user/inventory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/api/user/pharmacy.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/api/user/products.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/api/user/user.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/axios/requestInventory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/axios/requestPharmacy.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/axios/requestProducts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/axios/requestUser.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/axios/requstOrder.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/hook/useGoogleMapsApi.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/hook/useLogin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/layouts/DashBoardLayout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/layouts/HeaderLayout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/layouts/LeftMenuLayout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Analytics.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/EditProduct.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Inventory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/LeafletPharmacyMap.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/NewAddProduct.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Order/OrderPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Order/PDFReceipt.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Order/PDFReport.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Order/renderOrderCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Pharmacies.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Pharmacy3DView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/PharmacyInventory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Product3DScatterPlot.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Products.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/TLogin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/ViewProduct.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/mobile/Homepage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/mobile/PhotoCapture.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/mobile/ProductResultDisplay.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/router/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/store/features/messageSlice.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/store/store.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/dataURItoBlob.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/token.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2nYrO0sAfDqQesyC4igivFF3ApF" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTFeaturesSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1369c79b-277f-4079-b539-b663b0f49038" name="Changes" comment="" />
+      <created>1729160817945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729160817945</updated>
+      <workItem from="1729160819317" duration="298000" />
+      <workItem from="1729161131725" duration="63000" />
+    </task>
+    <task id="LOCAL-00001" summary="MediMate Release">
+      <option name="closed" value="true" />
+      <created>1729160897658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729160897658</updated>
+    </task>
+    <task id="LOCAL-00002" summary="MediMate Release">
+      <option name="closed" value="true" />
+      <created>1729161028025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729161028025</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MediMate Release" />
+    <option name="LAST_COMMIT_MESSAGE" value="MediMate Release" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.friedchicken.mapper.UserInfoMapper">
+
+    <update id="updateUserInfo">
+        update user_info
+        <set>
+            <if test="birthYear != null">
+                birth_year = #{birthYear},
+            </if>
+            <if test="userWeight != null">
+                user_weight = #{userWeight},
+            </if>
+            <if test="userHeight != null">
+                user_height = #{userHeight},
+            </if>
+        </set>
+        where user_id = #{userId};
+    </update>
+
+</mapper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.friedchicken.mapper.AiInfoMapper">
+
+    <select id="findByMultipleWords" resultType="com.friedchicken.pojo.vo.Medicine.MedicineListVO">
+        SELECT *
+        FROM (SELECT *, MATCH(product_name, general_information) AGAINST(#{searchTerms} IN BOOLEAN MODE) AS relevance
+              FROM medicine
+              WHERE MATCH(product_name, general_information) AGAINST(#{searchTerms} IN BOOLEAN MODE)) AS subquery
+        WHERE subquery.relevance > 0.5
+        ORDER BY subquery.relevance DESC
+    </select>
+
+    <select id="findProductByIds" resultType="com.friedchicken.pojo.entity.Medicine.Medicine">
+        select *
+        from medicine
+        where product_id in
+        <foreach collection="productId" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </select>
+
+</mapper>

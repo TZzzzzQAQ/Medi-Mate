@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    password: # DB Password
+  ai:
+    openai:
+      api-key: # Open AI API
+  rabbitmq:
+    password: # RabbitMQ Password
+  mail:
+    password: # Email Password
+fc:
+  jwt:
+    admin-secret-key: yz22a6p+yD3VKCGiQI5byhLO9sMoPCniMkk3DXrmk8Roxu3turTO4EGr8QMQItky
+    user-secret-key: yz22a6p+yD3VKCGiQI5byhLO9sMoPCniMkk3DXrmk8Roxu3turTO4EGr8QMQItky

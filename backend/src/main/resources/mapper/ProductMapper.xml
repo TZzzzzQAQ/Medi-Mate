@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.friedchicken.mapper.ProductMapper">
+    <update id="updateProductById">
+        update medicine
+        <set>
+            <if test="productId != null">
+                product_id = #{productId},
+            </if>
+            <if test="productName != null">
+                product_name = #{productName},
+            </if>
+            <if test="productPrice != null">
+                product_price = #{productPrice},
+            </if>
+            <if test="manufacturerName != null">
+                manufacturer_name = #{manufacturerName},
+            </if>
+            <if test="generalInformation != null">
+                general_information = #{generalInformation},
+            </if>
+            <if test="warnings != null">
+                warnings = #{warnings},
+            </if>
+            <if test="commonUse != null">
+                common_use = #{commonUse},
+            </if>
+            <if test="ingredients != null">
+                ingredients = #{ingredients},
+            </if>
+            <if test="directions != null">
+                directions = #{directions},
+            </if>
+            <if test="imageSrc != null">
+                image_src = #{imageSrc},
+            </if>
+            <if test="summary != null">
+                summary = #{summary},
+            </if>
+            <if test="updatedAt != null">
+                updated_at = #{updatedAt}
+            </if>
+        </set>
+        where product_id = #{productId};
+    </update>
+    <select id="getProducts" resultType="com.friedchicken.pojo.vo.Medicine.MedicineListVO">
+        SELECT *
+        FROM medicine
+        WHERE MATCH(product_name, general_information) AGAINST(#{productName} IN NATURAL LANGUAGE MODE)
+        <if test="productName != null and productName != '' and manufacturerName != null and manufacturerName != ''">
+            AND
+        </if>
+        <if test="manufacturerName != null and manufacturerName != ''">
+            manufacturer_name like concat('%',#{manufacturerName},'%')
+        </if>
+    </select>
+    <select id="getProductById" resultType="com.friedchicken.pojo.vo.Medicine.MedicineDetailVO">
+        select *
+        from medicine
+        <where>
+            product_id = #{productId}
+        </where>
+    </select>
+    <select id="getDetailProducts" resultType="com.friedchicken.pojo.vo.Medicine.MedicineDetailVO">
+        SELECT *
+        from medicine
+        <where>
+            <if test="productName != null and productName != ''">
+                product_name like concat('%',#{productName},'%')
+            </if>
+            <if test="productName != null and productName != '' and manufacturerName != null and manufacturerName != ''">
+                AND
+            </if>
+            <if test="manufacturerName != null and manufacturerName != ''">
+                manufacturer_name like concat('%',#{manufacturerName},'%')
+            </if>
+        </where>
+    </select>
+    <select id="getAllManufactureName" resultType="java.lang.String">
+        select distinct manufacturer_name
+        from medicine
+    </select>
+    <select id="getProductLocation" resultType="com.friedchicken.pojo.vo.Medicine.MedicineLocationVO">
+        select p.pharmacy_name, pi.stock_quantity, pi.shelf_number, pi.shelf_level
+        from pharmacy p
+                 natural join pharmacy_inventory pi
+        where pi.pharmacy_id = #{pharmacyId}
+          and pi.product_id = #{productId}
+    </select>
+</mapper>

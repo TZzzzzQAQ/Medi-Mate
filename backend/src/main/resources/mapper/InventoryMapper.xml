@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.friedchicken.mapper.InventoryMapper">
+    <select id="getInventoryFromPharmacyId" resultType="com.friedchicken.pojo.vo.Inventory.DetailInventoryVO">
+        select m.product_name,
+               m.product_price,
+               m.manufacturer_name,
+               m.image_src,
+               stock_quantity,
+               shelf_number,
+               shelf_level
+        from pharmacy_inventory pi
+                 left join pharmacy p on p.pharmacy_id = pi.pharmacy_id
+                 left join medicine m on pi.product_id = m.product_id
+        where pi.pharmacy_id = #{pharmacyId}
+          and m.product_name like concat('%', #{productName}, '%')
+    </select>
+</mapper>

@@ -1,0 +1,49 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: dev
+  main:
+    allow-circular-references: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/medi_mate
+    username: root
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: myuser
+    virtual-host: /friedchicken
+    listener:
+      simple:
+        prefetch: 1
+        acknowledge-mode: auto
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: medimateorderservice@gmail.com
+    password: ${fc.mail.password}
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.friedchicken.pojo.entity
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+fc:
+  jwt:
+    admin-ttl: 2592000000
+    admin-token-name: token
+    user-ttl: 2592000000
+    user-token-name: authentication
